@@ -2,5 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/devtools', '@nuxt/ui']
+  modules: ['@nuxt/devtools', '@nuxt/ui'],
+  css: ['animate.css']
 })

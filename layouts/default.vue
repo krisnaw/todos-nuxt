@@ -1,8 +1,9 @@
 <template>
-  <div>
-    this is layout
-    <Nav/>
-    <slot/>
-    <Footer/>
-  </div>
+  <UApp>
+    <UContainer>
+      <Nav/>
+      <slot/>
+      <Footer/>
+    </UContainer>
+  </UApp>
 </template>
